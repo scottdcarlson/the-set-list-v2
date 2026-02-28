@@ -1,7 +1,9 @@
 import { describe, it, expect, beforeEach, vi } from 'vitest'
 import { render, screen, waitFor } from '@testing-library/react'
+import { BrowserRouter } from 'react-router-dom'
 import { EventsPage } from '../EventsPage'
 import { useEventStore } from '../../store/useEventStore'
+import { useFilterStore } from '../../store/useFilterStore'
 
 // Mock the current date for consistent testing
 vi.mock('../../utils/dateGrouping', async () => {
@@ -15,12 +17,25 @@ vi.mock('../../utils/dateGrouping', async () => {
   }
 })
 
+function renderWithRouter() {
+  return render(
+    <BrowserRouter>
+      <EventsPage />
+    </BrowserRouter>
+  )
+}
+
 describe('EventsPage', () => {
   beforeEach(() => {
     useEventStore.setState({
       events: [],
       loading: false,
       error: null,
+    })
+    useFilterStore.setState({
+      selectedDays: [],
+      selectedCategories: [],
+      selectedCities: [],
     })
     vi.restoreAllMocks()
   })
@@ -30,7 +45,7 @@ describe('EventsPage', () => {
       () => new Promise(() => {})
     )
 
-    render(<EventsPage />)
+    renderWithRouter()
 
     expect(screen.getByTestId('loading')).toBeInTheDocument()
   })
@@ -60,7 +75,7 @@ describe('EventsPage', () => {
       json: async () => mockEvents,
     } as Response)
 
-    render(<EventsPage />)
+    renderWithRouter()
 
     await waitFor(() => {
       expect(screen.getByText('TONIGHT 🔥')).toBeInTheDocument()
@@ -77,7 +92,7 @@ describe('EventsPage', () => {
       status: 500,
     } as Response)
 
-    render(<EventsPage />)
+    renderWithRouter()
 
     await waitFor(() => {
       expect(screen.getByText('Error: HTTP 500')).toBeInTheDocument()

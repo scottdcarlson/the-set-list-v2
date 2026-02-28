@@ -1,16 +1,36 @@
-import { useEffect } from 'react'
+import { useEffect, useMemo } from 'react'
+import { useNavigate } from 'react-router-dom'
 import { useEventStore } from '../store/useEventStore'
+import { useFilterStore } from '../store/useFilterStore'
 import { groupEventsByDate } from '../utils/dateGrouping'
 import { DateGroupHeader } from '../components/DateGroupHeader'
 import { EventCard } from '../components/EventCard'
+import { FilterChips } from '../components/FilterChips'
 
 export function EventsPage() {
+  const navigate = useNavigate()
   const { events, loading, error, fetchEvents } = useEventStore()
+  const { selectedDays, selectedCategories, selectedCities } = useFilterStore()
 
   // CRITICAL: Empty deps array — never put fetchEvents or events in deps
   useEffect(() => {
     void fetchEvents()
   }, [])
+
+  const filteredEvents = useMemo(() => {
+    return events.filter((event) => {
+      if (selectedDays.length > 0 && !selectedDays.includes(event.date)) {
+        return false
+      }
+      if (selectedCategories.length > 0 && !selectedCategories.includes(event.category)) {
+        return false
+      }
+      if (selectedCities.length > 0 && !selectedCities.includes(event.city)) {
+        return false
+      }
+      return true
+    })
+  }, [events, selectedDays, selectedCategories, selectedCities])
 
   if (loading) {
     return (
@@ -28,11 +48,17 @@ export function EventsPage() {
     )
   }
 
-  const groups = groupEventsByDate(events)
+  const groups = groupEventsByDate(filteredEvents)
+
+  const handleEventClick = (event: { artist_event: string; date: string }) => {
+    const id = encodeURIComponent(`${event.artist_event}|${event.date}`)
+    navigate(`/event/${id}`)
+  }
 
   return (
     <div className="p-4">
       <h1 className="text-2xl font-bold text-[#F59E0B] mb-4">The Set List</h1>
+      <FilterChips events={events} />
       {groups.map((group) => (
         <div key={group.label} className="mb-6">
           <DateGroupHeader
@@ -41,7 +67,11 @@ export function EventsPage() {
           />
           <div className="flex flex-col gap-3 px-4">
             {group.events.map((event, idx) => (
-              <EventCard key={`${event.artist_event}-${idx}`} event={event} />
+              <EventCard
+                key={`${event.artist_event}-${idx}`}
+                event={event}
+                onClick={() => handleEventClick(event)}
+              />
             ))}
           </div>
         </div>
