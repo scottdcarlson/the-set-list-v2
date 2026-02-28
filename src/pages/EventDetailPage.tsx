@@ -18,7 +18,8 @@ export function EventDetailPage() {
     if (events.length === 0) {
       void fetchEvents()
     }
-  }, [events.length, fetchEvents])
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
 
   const event = slug ? getEventBySlug(slug) : undefined
 

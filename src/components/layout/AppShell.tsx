@@ -13,7 +13,8 @@ export function AppShell() {
     if (!isLoading && !error && events.length === 0) {
       void fetchEvents()
     }
-  }, [error, events.length, fetchEvents, isLoading])
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
 
   if (events.length === 0 && isLoading) {
     return (

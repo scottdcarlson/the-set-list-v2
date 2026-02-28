@@ -18,7 +18,8 @@ export function FavoritesPage() {
     if (events.length === 0) {
       void fetchEvents()
     }
-  }, [events.length, fetchEvents])
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
 
   const hasFavorites = favoriteArtists.length > 0 || favoriteVenues.length > 0
 
