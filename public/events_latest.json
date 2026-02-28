@@ -1,0 +1,162 @@
+[
+  {
+    "artist_event": "Hiss Golden Messenger",
+    "venue": "Cat's Cradle",
+    "date": "Sat Feb 28",
+    "start_time": "7:30 PM",
+    "city": "Carrboro",
+    "category": "Folk"
+  },
+  {
+    "artist_event": "Durham Night Grooves",
+    "venue": "Motorco Music Hall",
+    "date": "Sat Feb 28",
+    "start_time": "8:00 PM",
+    "city": "Durham",
+    "category": "Electronic"
+  },
+  {
+    "artist_event": "Carolina Underground Cypher",
+    "venue": "The Pinhook",
+    "date": "Sat Feb 28",
+    "start_time": "9:30 PM",
+    "city": "Durham",
+    "category": "Hip-Hop"
+  },
+  {
+    "artist_event": "Sunday Strings Revival",
+    "venue": "The Pour House",
+    "date": "Sun Mar 01",
+    "start_time": "7:00 PM",
+    "city": "Raleigh",
+    "category": "Indie"
+  },
+  {
+    "artist_event": "Blue Note Brunch Session",
+    "venue": "Kings",
+    "date": "Sun Mar 01",
+    "start_time": "6:30 PM",
+    "city": "Raleigh",
+    "category": "Jazz"
+  },
+  {
+    "artist_event": "Bull City Blues Revue",
+    "venue": "Motorco Music Hall",
+    "date": "Mon Mar 02",
+    "start_time": "8:00 PM",
+    "city": "Durham",
+    "category": "Blues"
+  },
+  {
+    "artist_event": "Neon Highways Tour",
+    "venue": "Lincoln Theatre",
+    "date": "Mon Mar 02",
+    "start_time": "7:30 PM",
+    "city": "Raleigh",
+    "category": "Rock"
+  },
+  {
+    "artist_event": "Back Porch Harmonies",
+    "venue": "Local 506",
+    "date": "Tue Mar 03",
+    "start_time": "8:00 PM",
+    "city": "Chapel Hill",
+    "category": "Country"
+  },
+  {
+    "artist_event": "Midweek Magnetics",
+    "venue": "The Pinhook",
+    "date": "Tue Mar 03",
+    "start_time": "9:00 PM",
+    "city": "Durham",
+    "category": "Electronic"
+  },
+  {
+    "artist_event": "Triangle City Stomp",
+    "venue": "Cat's Cradle",
+    "date": "Wed Mar 04",
+    "start_time": "7:30 PM",
+    "city": "Carrboro",
+    "category": "Rock"
+  },
+  {
+    "artist_event": "Jazz After Dark Quartet",
+    "venue": "Kings",
+    "date": "Wed Mar 04",
+    "start_time": "8:30 PM",
+    "city": "Raleigh",
+    "category": "Jazz"
+  },
+  {
+    "artist_event": "Smoke & Steel",
+    "venue": "The Pour House",
+    "date": "Thu Mar 05",
+    "start_time": "7:30 PM",
+    "city": "Raleigh",
+    "category": "Blues"
+  },
+  {
+    "artist_event": "Tar Heel Folk Circle",
+    "venue": "Local 506",
+    "date": "Thu Mar 05",
+    "start_time": "8:00 PM",
+    "city": "Chapel Hill",
+    "category": "Folk"
+  },
+  {
+    "artist_event": "Carolina Crownline",
+    "venue": "Lincoln Theatre",
+    "date": "Fri Mar 06",
+    "start_time": "8:00 PM",
+    "city": "Raleigh",
+    "category": "Country"
+  },
+  {
+    "artist_event": "Night Shift Narratives",
+    "venue": "The Pinhook",
+    "date": "Fri Mar 06",
+    "start_time": "9:00 PM",
+    "city": "Durham",
+    "category": "Hip-Hop"
+  },
+  {
+    "artist_event": "Satellite Kids",
+    "venue": "Cat's Cradle",
+    "date": "Sat Mar 07",
+    "start_time": "8:00 PM",
+    "city": "Carrboro",
+    "category": "Indie"
+  },
+  {
+    "artist_event": "Pulse District Live",
+    "venue": "Red Hat Amphitheater",
+    "date": "Sat Mar 07",
+    "start_time": "7:00 PM",
+    "city": "Raleigh",
+    "category": "Electronic"
+  },
+  {
+    "artist_event": "Riverlight Rambler",
+    "venue": "Local 506",
+    "date": "Sun Mar 08",
+    "start_time": "7:30 PM",
+    "city": "Chapel Hill",
+    "category": "Folk"
+  },
+  {
+    "artist_event": "Capital City Breakdown",
+    "venue": "The Pour House",
+    "date": "Mon Mar 09",
+    "start_time": "8:00 PM",
+    "city": "Raleigh",
+    "category": "Rock"
+  },
+  {
+    "artist_event": "Late Night Lineup",
+    "venue": "Motorco Music Hall",
+    "date": "Tue Mar 10",
+    "start_time": "8:30 PM",
+    "city": "Durham",
+    "category": "Hip-Hop"
+  }
+]

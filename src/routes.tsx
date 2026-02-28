@@ -1,21 +1,7 @@
 import { createBrowserRouter, Navigate } from 'react-router'
 import { AppShell } from './components/layout/AppShell'
-
-function EventsPage() {
-  return (
-    <div className='p-4 text-text-primary'>
-      <h1 className='text-2xl font-bold'>EventsPage</h1>
-    </div>
-  )
-}
-
-function EventDetailPage() {
-  return (
-    <div className='p-4 text-text-primary'>
-      <h1 className='text-2xl font-bold'>EventDetailPage</h1>
-    </div>
-  )
-}
+import { EventDetailPage } from './pages/EventDetailPage'
+import { EventsPage } from './pages/EventsPage'
 
 function SearchPage() {
   return (
