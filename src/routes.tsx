@@ -2,22 +2,8 @@ import { createBrowserRouter, Navigate } from 'react-router'
 import { AppShell } from './components/layout/AppShell'
 import { EventDetailPage } from './pages/EventDetailPage'
 import { EventsPage } from './pages/EventsPage'
-
-function SearchPage() {
-  return (
-    <div className='p-4 text-text-primary'>
-      <h1 className='text-2xl font-bold'>SearchPage</h1>
-    </div>
-  )
-}
-
-function FavoritesPage() {
-  return (
-    <div className='p-4 text-text-primary'>
-      <h1 className='text-2xl font-bold'>FavoritesPage</h1>
-    </div>
-  )
-}
+import { FavoritesPage } from './pages/FavoritesPage'
+import { SearchPage } from './pages/SearchPage'
 
 export const router = createBrowserRouter([
   {
