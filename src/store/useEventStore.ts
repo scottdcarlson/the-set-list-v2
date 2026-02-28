@@ -21,6 +21,10 @@ export const useEventStore = create<EventStore>((set, get) => ({
   error: null,
   hidePastEvents: true,
   fetchEvents: async () => {
+    if (get().isLoading) {
+      return
+    }
+
     set({ isLoading: true, error: null })
 
     try {
