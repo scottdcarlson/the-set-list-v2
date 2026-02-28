@@ -1,8 +1,0 @@
-{
-  "name": "fuse.js",
-  "version": "7.1.0-local",
-  "type": "module",
-  "main": "index.js",
-  "module": "index.js",
-  "types": "index.d.ts"
-}
