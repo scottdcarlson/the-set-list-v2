@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import { useEventStore } from '../store/useEventStore'
 import { createEventSearch, searchEvents } from '../utils/search'
 import { EventCard } from '../components/EventCard'
+import { EmptyState } from '../components/EmptyState'
 
 export function SearchPage() {
   const navigate = useNavigate()
@@ -14,8 +15,8 @@ export function SearchPage() {
     void fetchEvents()
   }, [])
 
-  const fuse = useMemo(() => createEventSearch(events), [events])
-  const results = useMemo(() => searchEvents(fuse, query), [fuse, query])
+  const search = useMemo(() => createEventSearch(events), [events])
+  const results = useMemo(() => searchEvents(search, query), [search, query])
 
   const handleEventClick = (event: { artist_event: string; date: string }) => {
     const id = encodeURIComponent(`${event.artist_event}|${event.date}`)
@@ -33,17 +34,22 @@ export function SearchPage() {
         className="bg-[#1A1A1A] text-[#F5F5F5] rounded-xl px-4 py-3 w-full border border-[#333] focus:border-[#F59E0B] outline-none mb-4"
         data-testid="search-input"
       />
-      <div className="flex flex-col gap-3">
-        {results.map((event, idx) => (
-          <EventCard
-            key={`${event.artist_event}-${idx}`}
-            event={event}
-            onClick={() => handleEventClick(event)}
-          />
-        ))}
-      </div>
-      {query && results.length === 0 && (
-        <p className="text-[#9CA3AF]">No results found for "{query}"</p>
+      {query && results.length === 0 ? (
+        <EmptyState
+          icon="🔍"
+          title="No matches found"
+          subtitle="Try a different search term"
+        />
+      ) : (
+        <div className="flex flex-col gap-3">
+          {results.map((event, idx) => (
+            <EventCard
+              key={`${event.artist_event}-${idx}`}
+              event={event}
+              onClick={() => handleEventClick(event)}
+            />
+          ))}
+        </div>
       )}
     </div>
   )

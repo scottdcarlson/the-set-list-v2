@@ -6,6 +6,8 @@ import { groupEventsByDate } from '../utils/dateGrouping'
 import { DateGroupHeader } from '../components/DateGroupHeader'
 import { EventCard } from '../components/EventCard'
 import { FilterChips } from '../components/FilterChips'
+import { SkeletonCard } from '../components/SkeletonCard'
+import { EmptyState } from '../components/EmptyState'
 
 export function EventsPage() {
   const navigate = useNavigate()
@@ -35,7 +37,13 @@ export function EventsPage() {
   if (loading) {
     return (
       <div className="p-4" data-testid="loading">
-        Loading...
+        <h1 className="text-2xl font-bold text-[#F59E0B] mb-4">The Set List</h1>
+        <div className="flex flex-col gap-3">
+          <SkeletonCard />
+          <SkeletonCard />
+          <SkeletonCard />
+          <SkeletonCard />
+        </div>
       </div>
     )
   }
@@ -59,23 +67,31 @@ export function EventsPage() {
     <div className="p-4">
       <h1 className="text-2xl font-bold text-[#F59E0B] mb-4">The Set List</h1>
       <FilterChips events={events} />
-      {groups.map((group) => (
-        <div key={group.label} className="mb-6">
-          <DateGroupHeader
-            label={group.label}
-            isTonightOrTomorrow={group.isTonightOrTomorrow}
-          />
-          <div className="flex flex-col gap-3 px-4">
-            {group.events.map((event, idx) => (
-              <EventCard
-                key={`${event.artist_event}-${idx}`}
-                event={event}
-                onClick={() => handleEventClick(event)}
-              />
-            ))}
+      {filteredEvents.length === 0 ? (
+        <EmptyState
+          icon="🎵"
+          title="No events found"
+          subtitle="Try adjusting your filters"
+        />
+      ) : (
+        groups.map((group) => (
+          <div key={group.label} className="mb-6">
+            <DateGroupHeader
+              label={group.label}
+              isTonightOrTomorrow={group.isTonightOrTomorrow}
+            />
+            <div className="flex flex-col gap-3 px-4">
+              {group.events.map((event, idx) => (
+                <EventCard
+                  key={`${event.artist_event}-${idx}`}
+                  event={event}
+                  onClick={() => handleEventClick(event)}
+                />
+              ))}
+            </div>
           </div>
-        </div>
-      ))}
+        ))
+      )}
     </div>
   )
 }

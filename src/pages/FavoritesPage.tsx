@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import { useEventStore } from '../store/useEventStore'
 import { useFavoritesStore } from '../store/useFavoritesStore'
 import { EventCard } from '../components/EventCard'
+import { EmptyState } from '../components/EmptyState'
 
 export function FavoritesPage() {
   const navigate = useNavigate()
@@ -33,9 +34,13 @@ export function FavoritesPage() {
     return (
       <div className="p-4">
         <h1 className="text-2xl font-bold text-[#F59E0B] mb-4">Favorites</h1>
-        <p className="text-[#9CA3AF]" data-testid="empty-state">
-          No favorites yet — tap the ❤️ on events you love
-        </p>
+        <div data-testid="empty-state">
+          <EmptyState
+            icon="❤️"
+            title="No favorites yet"
+            subtitle="Tap the ❤️ on events you love"
+          />
+        </div>
       </div>
     )
   }
