@@ -12,7 +12,7 @@ import { EmptyState } from '../components/EmptyState'
 export function EventsPage() {
   const navigate = useNavigate()
   const { events, loading, error, fetchEvents } = useEventStore()
-  const { selectedDays, selectedCategories, selectedCities } = useFilterStore()
+  const { selectedDay, selectedTime, selectedCategories, selectedCities } = useFilterStore()
 
   // CRITICAL: Empty deps array — never put fetchEvents or events in deps
   useEffect(() => {
@@ -21,7 +21,10 @@ export function EventsPage() {
 
   const filteredEvents = useMemo(() => {
     return events.filter((event) => {
-      if (selectedDays.length > 0 && !selectedDays.includes(event.date)) {
+      if (selectedDay && event.date !== selectedDay) {
+        return false
+      }
+      if (selectedTime && event.start_time !== selectedTime) {
         return false
       }
       if (selectedCategories.length > 0 && !selectedCategories.includes(event.category)) {
@@ -32,7 +35,7 @@ export function EventsPage() {
       }
       return true
     })
-  }, [events, selectedDays, selectedCategories, selectedCities])
+  }, [events, selectedDay, selectedTime, selectedCategories, selectedCities])
 
   if (loading) {
     return (

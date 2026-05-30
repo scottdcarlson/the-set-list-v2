@@ -1,162 +1,2372 @@
 [
   {
-    "artist_event": "The Mountain Goats",
-    "venue": "Cat's Cradle",
-    "date": "Sat Feb 28",
-    "start_time": "8:00 PM",
-    "city": "Carrboro",
-    "category": "Indie"
+    "date": "Sat May 30",
+    "start_time": "9:30 AM",
+    "end_time": "11:30 AM",
+    "artist_event": "Blue Sky Crying Solo",
+    "venue": "Cary Farmers Market",
+    "location": "Cary DT",
+    "city": "Cary",
+    "category": "Live Music"
   },
   {
-    "artist_event": "Sylvan Esso",
-    "venue": "Motorco Music Hall",
-    "date": "Sat Feb 28",
-    "start_time": "9:00 PM",
-    "city": "Durham",
-    "category": "Electronic"
-  },
-  {
-    "artist_event": "Hiss Golden Messenger",
-    "venue": "The Pinhook",
-    "date": "Sat Feb 28",
-    "start_time": "7:30 PM",
-    "city": "Durham",
-    "category": "Folk"
-  },
-  {
-    "artist_event": "Kooley High",
-    "venue": "Lincoln Theatre",
-    "date": "Sun Mar 01",
-    "start_time": "7:00 PM",
-    "city": "Raleigh",
-    "category": "Hip-Hop"
-  },
-  {
-    "artist_event": "Chatham County Line",
-    "venue": "Local 506",
-    "date": "Sun Mar 01",
-    "start_time": "8:00 PM",
-    "city": "Chapel Hill",
-    "category": "Folk"
-  },
-  {
-    "artist_event": "The Connells",
-    "venue": "Kings",
-    "date": "Mon Mar 02",
-    "start_time": "8:00 PM",
-    "city": "Raleigh",
-    "category": "Rock"
-  },
-  {
-    "artist_event": "Mighty Mighty Bosstones Tribute",
-    "venue": "Pour House Music Hall",
-    "date": "Tue Mar 03",
-    "start_time": "9:00 PM",
-    "city": "Raleigh",
-    "category": "Rock"
-  },
-  {
-    "artist_event": "NC Jazz Ensemble",
-    "venue": "The Pinhook",
-    "date": "Wed Mar 04",
-    "start_time": "7:00 PM",
-    "city": "Durham",
-    "category": "Jazz"
-  },
-  {
-    "artist_event": "Archers of Loaf",
-    "venue": "Cat's Cradle",
-    "date": "Thu Mar 05",
-    "start_time": "8:30 PM",
-    "city": "Carrboro",
-    "category": "Indie"
-  },
-  {
-    "artist_event": "Delta Rae",
-    "venue": "Motorco Music Hall",
-    "date": "Fri Mar 06",
-    "start_time": "9:00 PM",
-    "city": "Durham",
-    "category": "Folk"
-  },
-  {
-    "artist_event": "Superchunk",
-    "venue": "Cat's Cradle",
-    "date": "Sat Mar 07",
-    "start_time": "9:00 PM",
-    "city": "Carrboro",
-    "category": "Rock"
-  },
-  {
-    "artist_event": "Little Brother",
-    "venue": "Lincoln Theatre",
-    "date": "Sat Mar 07",
-    "start_time": "8:00 PM",
-    "city": "Raleigh",
-    "category": "Hip-Hop"
-  },
-  {
-    "artist_event": "Mandolin Orange",
-    "venue": "Local 506",
-    "date": "Sun Mar 08",
-    "start_time": "7:00 PM",
-    "city": "Chapel Hill",
-    "category": "Folk"
-  },
-  {
-    "artist_event": "Ben Folds",
-    "venue": "Red Hat Amphitheater",
-    "date": "Sun Mar 08",
-    "start_time": "7:30 PM",
-    "city": "Raleigh",
-    "category": "Rock"
-  },
-  {
-    "artist_event": "Tres Blues Band",
-    "venue": "Kings",
-    "date": "Mon Mar 09",
-    "start_time": "8:00 PM",
-    "city": "Raleigh",
-    "category": "Blues"
-  },
-  {
-    "artist_event": "Bombadil",
-    "venue": "The Pinhook",
-    "date": "Tue Mar 10",
-    "start_time": "8:00 PM",
-    "city": "Durham",
-    "category": "Indie"
-  },
-  {
-    "artist_event": "North Carolina Symphony",
-    "venue": "Red Hat Amphitheater",
-    "date": "Wed Mar 11",
-    "start_time": "7:00 PM",
-    "city": "Raleigh",
-    "category": "Jazz"
-  },
-  {
-    "artist_event": "American Aquarium",
-    "venue": "Motorco Music Hall",
-    "date": "Thu Mar 12",
-    "start_time": "9:00 PM",
-    "city": "Durham",
-    "category": "Rock"
-  },
-  {
-    "artist_event": "Flat Duo Jets",
-    "venue": "Pour House Music Hall",
-    "date": "Fri Mar 13",
+    "date": "Sat May 30",
     "start_time": "10:00 PM",
+    "end_time": "12:30 PM",
+    "artist_event": "Kidz Bop Skate (Disney Music)",
+    "venue": "United Skates of America, Inc.",
+    "location": "Raleigh",
     "city": "Raleigh",
-    "category": "Rock"
+    "category": "Live Music"
   },
   {
-    "artist_event": "Megafaun",
-    "venue": "Cat's Cradle",
-    "date": "Sat Mar 14",
+    "date": "Sat May 30",
+    "start_time": "10:00 AM",
+    "end_time": "2:00 PM",
+    "artist_event": "JAKS Showcase: Horses, Music, Market",
+    "venue": "JAKS Stables LLC",
+    "location": "Wendell S",
+    "city": "Wendell",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "10:45 AM",
+    "end_time": "4:00 PM",
+    "artist_event": "Flying Home Puddle Jumper, Lindy Hop Mini-shop",
+    "venue": "Triangle Dance Studios",
+    "location": "Durham SE",
+    "city": "Durham",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "11:00 AM",
+    "end_time": "7:00 PM",
+    "artist_event": "Around the World, Raleigh 2026",
+    "venue": "Moore Square",
+    "location": "Raleigh DT",
+    "city": "Raleigh",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "11:30 AM",
+    "end_time": "2:30 PM",
+    "artist_event": "Garret Hitmar Duo",
+    "venue": "Washington Duke Inn & Golf Club",
+    "location": "Durham E",
+    "city": "Durham",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "12:00 PM",
+    "end_time": "6:00 PM",
+    "artist_event": "Reggae & Rum Festival",
+    "venue": "Mystic Farm & Distilling Company",
+    "location": "DurhamE",
+    "city": "DurhamE",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "12:00 PM",
+    "end_time": "3:00 PM",
+    "artist_event": "Seven Paths",
+    "venue": "Bud's Tavern",
+    "location": "Youngsville S",
+    "city": "Youngsville",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "2:00 PM",
+    "end_time": "5:00 PM",
+    "artist_event": "Local Music & Critters",
+    "venue": "Thornfield Heritage Farm",
+    "location": "Hillsborough NE",
+    "city": "Hillsborough",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "3:00 PM",
+    "end_time": "7:00 PM",
+    "artist_event": "Forest Rising",
+    "venue": "Chatham Marketplace",
+    "location": "Pittsboro N",
+    "city": "Pittsboro",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "3:00 PM",
+    "end_time": "6:00 PM",
+    "artist_event": "William Nesmith",
+    "venue": "Tin Roof",
+    "location": "Raleigh DT",
+    "city": "Raleigh",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "4:00 PM",
+    "end_time": "7:00 PM",
+    "artist_event": "Steve Compton",
+    "venue": "ZincHouse Winery & Brewery",
+    "location": "Durham E",
+    "city": "Durham",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "4:00 PM",
+    "end_time": "7:00 PM",
+    "artist_event": "Ashley Robinson",
+    "venue": "Crooked Hammock Brewery",
+    "location": "Raleigh NW",
+    "city": "Raleigh",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "4:00 PM",
+    "end_time": "7:00 PM",
+    "artist_event": "Your Mama's New Boyfriend",
+    "venue": "Aviator Amphitheater",
+    "location": "Varina DT",
+    "city": "Varina",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "5:00 PM",
+    "end_time": "8:00 PM",
+    "artist_event": "Summer Beach Party",
+    "venue": "JD's Tavern",
+    "location": "Apex",
+    "city": "Apex",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "5:00 PM",
+    "end_time": "8:00 PM",
+    "artist_event": "Gravity Shift",
+    "venue": "Abbey Road Tavern & Grill - Cary",
+    "location": "Cary SW",
+    "city": "Cary",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "5:00 PM",
+    "end_time": "8:00 PM",
+    "artist_event": "Slow Teeth @Saturday Series in Saxapahaw",
+    "venue": "Saxapahaw Rivermill",
+    "location": "Graham",
+    "city": "Graham",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "5:00 PM",
+    "end_time": "8:00 PM",
+    "artist_event": "Live Music Saturdays",
+    "venue": "Gizmo Brew Works - Raleigh",
+    "location": "Raleigh NW",
+    "city": "Raleigh",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "6:00 PM",
+    "end_time": "9:00 PM",
+    "artist_event": "Oak Grove Boys, Right Road Trio (Worship)",
+    "venue": "Powhatan Original Free Will Baptist Church",
+    "location": "Clayton SE",
+    "city": "Clayton",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "6:00 PM",
+    "end_time": "7:00 PM",
+    "artist_event": "Ray Wag",
+    "venue": "Local 919 Beer & Wine",
+    "location": "Raleigh N",
+    "city": "Raleigh",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "6:00 PM",
+    "end_time": "9:00 PM",
+    "artist_event": "Proton Jones",
+    "venue": "Salty Turtle Beer Co.",
+    "location": "Raleigh N",
+    "city": "Raleigh",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "6:00 PM",
+    "end_time": "9:00 PM",
+    "artist_event": "Kevin Lee",
+    "venue": "Fortnight Brewing Wake Forest",
+    "location": "Wake Forest S",
+    "city": "Wake",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "6:30 PM",
+    "end_time": "9:30 PM",
+    "artist_event": "Barn Dance w/ LA Fernandez, Shady Neighbor",
+    "venue": "Sunrise Community Farm Center",
+    "location": "Chapel Hill N",
+    "city": "Chapel",
+    "category": "Dancing"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "6:30 PM",
+    "end_time": "9:30 PM",
+    "artist_event": "Josh Colton",
+    "venue": "Brixx Wood Fired Pizza - Genlee",
+    "location": "Genlee",
+    "city": "Genlee",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "6:30 PM",
+    "end_time": "9:30 PM",
+    "artist_event": "The Stride",
+    "venue": "Tin Roof",
+    "location": "Raleigh DT",
+    "city": "Raleigh",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "6:30 PM",
+    "end_time": "9:30 PM",
+    "artist_event": "Young the Giant, Cold War Kids",
+    "venue": "Red Hat Amphitheatre",
+    "location": "Raleigh DT",
+    "city": "Raleigh",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "6:30 PM",
+    "end_time": "9:30 PM",
+    "artist_event": "Denty Westlake Duo",
+    "venue": "Irregardless",
+    "location": "Raleigh W",
+    "city": "Raleigh",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "7:00 PM",
+    "end_time": "10:00 PM",
+    "artist_event": "5 Times Around (5TA, grunge)",
+    "venue": "TapStation",
+    "location": "Apex DT",
+    "city": "Apex",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "7:00 PM",
+    "end_time": "10:00 PM",
+    "artist_event": "Shane Bullis",
+    "venue": "Oaklyn Springs Brewery - Apex",
+    "location": "Apex DT",
+    "city": "Apex",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "7:00 PM",
+    "end_time": "9:00 PM",
+    "artist_event": "Miss Candince",
+    "venue": "RBF, Your Authentic Champagne Bar",
+    "location": "Cary",
+    "city": "Cary",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "7:00 PM",
+    "end_time": "9:00 PM",
+    "artist_event": "Open Mic",
+    "venue": "K\u014dMANA Brewing Company",
+    "location": "Cary",
+    "city": "Cary",
+    "category": "Karaoke"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "7:00 PM",
+    "end_time": "10:00 PM",
+    "artist_event": "Kaylee Grace",
+    "venue": "The Williams House: Craft Taproom",
+    "location": "Cary",
+    "city": "Cary",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "7:00 PM",
+    "end_time": "9:00 PM",
+    "artist_event": "Peak City Sound @Live At The Lawn",
+    "venue": "Amberly Clubhouse",
+    "location": "Cary NW",
+    "city": "Cary",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "7:00 PM",
+    "end_time": "10:00 PM",
+    "artist_event": "Open Mic Acoustic w/ Brian J & SRE",
+    "venue": "Ruckus Cary",
+    "location": "Cary SE",
+    "city": "Cary",
+    "category": "Karaoke"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "7:00 PM",
+    "end_time": "10:00 PM",
+    "artist_event": "Rose Galaxy",
+    "venue": "Fortnight Brewing - Cary",
+    "location": "Cary SW",
+    "city": "Cary",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "7:00 PM",
+    "end_time": "10:00 PM",
+    "artist_event": "Mysti Mayhem",
+    "venue": "Throwback Thursdays Sportsbar",
+    "location": "Dunn",
+    "city": "Dunn",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "7:00 PM",
+    "end_time": "10:00 PM",
+    "artist_event": "The Phoebes",
+    "venue": "ZincHouse Winery & Brewery",
+    "location": "Durham E",
+    "city": "Durham",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "7:00 PM",
+    "end_time": "10:00 PM",
+    "artist_event": "Adam Lee Decker",
+    "venue": "West 94th St. Pub",
+    "location": "Durham S",
+    "city": "Durham",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "7:00 PM",
+    "end_time": "9:00 PM",
+    "artist_event": "Janna Badalian (Jazz Singer/Songwriter)",
+    "venue": "Succotash Southern & Creole Kitchen",
+    "location": "Durham SW",
+    "city": "Durham",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "7:00 PM",
+    "end_time": "10:00 PM",
+    "artist_event": "Amazing Lounge Lizards",
+    "venue": "Owl's Roost Brewery",
+    "location": "Franklinton DT",
+    "city": "Franklinton",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "7:00 PM",
+    "end_time": "10:00 PM",
+    "artist_event": "Story Charlemagne",
+    "venue": "Oaklyn Springs Brewery",
+    "location": "Fuquay DT",
+    "city": "Fuquay",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "7:00 PM",
+    "end_time": "10:00 PM",
+    "artist_event": "Michael Blakey",
+    "venue": "Aviator Brewing Tap House & Kitchen",
+    "location": "Fuquay-Varina",
+    "city": "Fuquay-Varina",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "7:00 PM",
+    "end_time": "9:00 PM",
+    "artist_event": "Bella G",
+    "venue": "Wingin'It Bar & Grille",
+    "location": "Fuquay-Varina E",
+    "city": "Fuquay-Varina",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "7:00 PM",
+    "end_time": "10:00 PM",
+    "artist_event": "Jam Biscuit Band",
+    "venue": "Lorraine's Coffee House & Music",
+    "location": "Garner S",
+    "city": "Garner",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "7:00 PM",
+    "end_time": "10:00 PM",
+    "artist_event": "Maskell Freeman Band",
+    "venue": "Bombshell Beer Company",
+    "location": "Holly Springs DT",
+    "city": "Holly",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "7:00 PM",
+    "end_time": "9:30 PM",
+    "artist_event": "Hip Hop Saturday Night",
+    "venue": "United Skates of America, Inc.",
+    "location": "Raleigh",
+    "city": "Raleigh",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "7:00 PM",
+    "end_time": "11:55 PM",
+    "artist_event": "Aching Back Sunday (Pop Punk Emo, $10)",
+    "venue": "Kings",
+    "location": "Raleigh",
+    "city": "Raleigh",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "7:00 PM",
+    "end_time": "10:00 PM",
+    "artist_event": "Emo Forever Weekender",
+    "venue": "Grog Alley",
+    "location": "Raleigh DT",
+    "city": "Raleigh",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "7:00 PM",
+    "end_time": "10:00 PM",
+    "artist_event": "Al Williams Band",
+    "venue": "Scooter's Bar & Grill",
+    "location": "Raleigh N",
+    "city": "Raleigh",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "7:00 PM",
+    "end_time": "10:00 PM",
+    "artist_event": "In the End - Linkin Park Experience",
+    "venue": "The Ritz",
+    "location": "Raleigh N",
+    "city": "Raleigh",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "7:00 PM",
+    "end_time": "10:00 PM",
+    "artist_event": "Jared Place",
+    "venue": "The Wandering Moose Tavern",
+    "location": "Raleigh N",
+    "city": "Raleigh",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "7:00 PM",
+    "end_time": "10:00 PM",
+    "artist_event": "Uncaged (Zac Brown)",
+    "venue": "Bowstring Pizza & Brewyard",
+    "location": "Raleigh N",
+    "city": "Raleigh",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "7:00 PM",
+    "end_time": "11:00 PM",
+    "artist_event": "RadioStar",
+    "venue": "Saints & Scholars Pub",
+    "location": "Raleigh N",
+    "city": "Raleigh",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "7:00 PM",
+    "end_time": "10:00 PM",
+    "artist_event": "Infinity's End",
+    "venue": "Aviator Pizzeria & BeerShop",
+    "location": "Varina DT",
+    "city": "Varina",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "7:00 PM",
+    "end_time": "9:00 PM",
+    "artist_event": "Dave Devlin",
+    "venue": "Unwined on White",
+    "location": "Wake Forest DT",
+    "city": "Wake",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "7:00 PM",
+    "end_time": "10:00 PM",
+    "artist_event": "Derek Chase",
+    "venue": "The Gramercy Restaurant & Lounge",
+    "location": "Wake Forest S",
+    "city": "Wake",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "7:00 PM",
+    "end_time": "11:00 PM",
+    "artist_event": "Karaoke",
+    "venue": "Mackey's Pub",
+    "location": "Wake Forest SW",
+    "city": "Wake",
+    "category": "Karaoke"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "7:00 PM",
+    "end_time": "10:00 PM",
+    "artist_event": "William and Adam",
+    "venue": "Bearded Bee Brewing Company",
+    "location": "Wendell DT",
+    "city": "Wendell",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "7:30 PM",
+    "end_time": "10:30 PM",
+    "artist_event": "Mark Cimerro",
+    "venue": "Cleveland Draft House - Clayton",
+    "location": "Clayton W",
+    "city": "Clayton",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "7:30 PM",
+    "end_time": "9:30 PM",
+    "artist_event": "Eric Williams Quintet \"Miles & Coltrane @ 100\"",
+    "venue": "Sharp 9 Gallery",
+    "location": "Durham S",
+    "city": "Durham",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "7:30 PM",
+    "end_time": "10:30 PM",
+    "artist_event": "Andy & Oneida",
+    "venue": "Bralie's Sports Bar 2 - West Hills",
+    "location": "Durham W",
+    "city": "Durham",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "7:30 PM",
+    "end_time": "10:30 PM",
+    "artist_event": "JD and Rissa Ross",
+    "venue": "Tonic Bar & Social Club of WF",
+    "location": "Wake Forest",
+    "city": "Wake",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
     "start_time": "8:00 PM",
+    "end_time": "11:00 PM",
+    "artist_event": "Dead Bangers Society",
+    "venue": "Exchange Barbershop & Lounge",
+    "location": "Apex DT",
+    "city": "Apex",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "8:00 PM",
+    "end_time": "11:00 PM",
+    "artist_event": "The Roguez",
+    "venue": "Peak of the Vine",
+    "location": "Apex DT",
+    "city": "Apex",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "8:00 PM",
+    "end_time": "11:00 PM",
+    "artist_event": "K-Bomb and The Kool Whips",
+    "venue": "The Backyard Bar",
+    "location": "Apex W",
+    "city": "Apex",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "8:00 PM",
+    "end_time": "11:00 PM",
+    "artist_event": "Lynn Blakey Life & Music (Many Bands)",
+    "venue": "Cat's Cradle",
+    "location": "Carrboro",
     "city": "Carrboro",
-    "category": "Folk"
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "8:00 PM",
+    "end_time": "11:00 PM",
+    "artist_event": "Alex Lawhon",
+    "venue": "The Walk Up",
+    "location": "Cary",
+    "city": "Cary",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "8:00 PM",
+    "end_time": "11:00 PM",
+    "artist_event": "NC Symphony - Epic Film Scores",
+    "venue": "Koka Booth Amphitheatre",
+    "location": "Cary",
+    "city": "Cary",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "8:00 PM",
+    "end_time": "11:00 PM",
+    "artist_event": "Soul Livin",
+    "venue": "Eastside Music Venue",
+    "location": "Cary",
+    "city": "Cary",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "8:00 PM",
+    "end_time": "11:00 PM",
+    "artist_event": "Karaoke w/ DJ DC Price",
+    "venue": "The Corner Tavern & Grill",
+    "location": "Cary W",
+    "city": "Cary",
+    "category": "Karaoke"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "8:00 PM",
+    "end_time": "11:00 PM",
+    "artist_event": "Tone Merchants",
+    "venue": "Aversboro Restaurant & Sports Bar",
+    "location": "Garner S",
+    "city": "Garner",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "8:00 PM",
+    "end_time": "11:00 PM",
+    "artist_event": "Jane & Tonic",
+    "venue": "Shakey Ray's Tavern",
+    "location": "Holly Springs",
+    "city": "Holly",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "8:00 PM",
+    "end_time": "11:00 PM",
+    "artist_event": "Chris Overstreet",
+    "venue": "Niche Wine Lounge",
+    "location": "Holly Springs DT",
+    "city": "Holly",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "8:00 PM",
+    "end_time": "11:00 PM",
+    "artist_event": "Ben Folds & A Piano Tour",
+    "venue": "Martin Marietta Center for the Performing Arts",
+    "location": "Raleigh",
+    "city": "Raleigh",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "8:00 PM",
+    "end_time": "11:00 PM",
+    "artist_event": "Bearly Dead (Grateful Dead)",
+    "venue": "Lincoln Theatre",
+    "location": "Raleigh DT",
+    "city": "Raleigh",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "8:00 PM",
+    "end_time": "11:00 PM",
+    "artist_event": "Dakota Proctor, Goddamn Wolves",
+    "venue": "Slim's Dive Bar",
+    "location": "Raleigh DT",
+    "city": "Raleigh",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "8:00 PM",
+    "end_time": "11:00 PM",
+    "artist_event": "Mix Tape",
+    "venue": "The Avenue Raleigh",
+    "location": "Raleigh DT",
+    "city": "Raleigh",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "8:00 PM",
+    "end_time": "11:00 PM",
+    "artist_event": "The Band Soltice, The John Wood Band ($)",
+    "venue": "The Pour House Music Hall",
+    "location": "Raleigh DT",
+    "city": "Raleigh",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "8:00 PM",
+    "end_time": "11:55 PM",
+    "artist_event": "Spin with the Spirits & DJ",
+    "venue": "Boatman Spirits Co.",
+    "location": "Raleigh DT",
+    "city": "Raleigh",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "8:00 PM",
+    "end_time": "11:00 PM",
+    "artist_event": "Open Mic by SRE",
+    "venue": "The Bull & The Bear",
+    "location": "Raleigh N",
+    "city": "Raleigh",
+    "category": "Karaoke"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "8:00 PM",
+    "end_time": "11:00 PM",
+    "artist_event": "Crush",
+    "venue": "Tap Yard Raleigh",
+    "location": "Raleigh N",
+    "city": "Raleigh",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "8:00 PM",
+    "end_time": "11:00 PM",
+    "artist_event": "Dead City Radio, Raleigh Assassins",
+    "venue": "O'Malley's Pub & Restaurant",
+    "location": "Raleigh NW",
+    "city": "Raleigh",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "8:00 PM",
+    "end_time": "11:00 PM",
+    "artist_event": "Tribute: Los Fabuloso Cadillacs, Los Autenticos Decandentes",
+    "venue": "Chapel of Bones",
+    "location": "Raleigh SW",
+    "city": "Raleigh",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "8:00 PM",
+    "end_time": "11:55 PM",
+    "artist_event": "Karaoke (after band)",
+    "venue": "The Brickhouse Bar & Grill",
+    "location": "Varina DT",
+    "city": "Varina",
+    "category": "Karaoke"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "8:00 PM",
+    "end_time": "11:00 PM",
+    "artist_event": "80's Unleashed",
+    "venue": "Bud's Tavern",
+    "location": "Youngsville S",
+    "city": "Youngsville",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "8:30 PM",
+    "end_time": "9:30 PM",
+    "artist_event": "Mojo Foot",
+    "venue": "Aviator Hangar Bar",
+    "location": "Fuquay-Varina",
+    "city": "Fuquay-Varina",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "8:30 PM",
+    "end_time": "11:55 PM",
+    "artist_event": "Tommy Thunderfoot & The Accelerators",
+    "venue": "Locked & Loaded Bar & Grill",
+    "location": "Garner NW",
+    "city": "Garner",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "8:30 PM",
+    "end_time": "11:30 PM",
+    "artist_event": "Zach Burrus",
+    "venue": "210 Nash",
+    "location": "Louisburg DT",
+    "city": "Louisburg",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "8:30 PM",
+    "end_time": "11:30 PM",
+    "artist_event": "Heavy Petty",
+    "venue": "Fairwood Lanes Misfits Bar & Grill",
+    "location": "Roanoke Rapids SE",
+    "city": "Roanoke",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "9:00 PM",
+    "end_time": "11:55 PM",
+    "artist_event": "Mike Mickxer",
+    "venue": "Napper Tandy's",
+    "location": "Angier DT",
+    "city": "Angier",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "9:00 PM",
+    "end_time": "11:55 PM",
+    "artist_event": "Rudy's Karaoke",
+    "venue": "Rudy's Pub & Grill",
+    "location": "Apex NW",
+    "city": "Apex",
+    "category": "Karaoke"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "9:00 PM",
+    "end_time": "11:55 PM",
+    "artist_event": "5th Time Around",
+    "venue": "Mac's Tavern",
+    "location": "Cary E",
+    "city": "Cary",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "9:00 PM",
+    "end_time": "11:55 PM",
+    "artist_event": "Deads",
+    "venue": "Hangout Bar & Grill",
+    "location": "Cary S",
+    "city": "Cary",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "9:00 PM",
+    "end_time": "11:55 PM",
+    "artist_event": "Peak City Band",
+    "venue": "The MOD",
+    "location": "Pittsboro DT",
+    "city": "Pittsboro",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "9:00 PM",
+    "end_time": "11:55 PM",
+    "artist_event": "Afrobeat Wave Saturdays",
+    "venue": "Zenith Raleigh",
+    "location": "Raleigh DT",
+    "city": "Raleigh",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "9:00 PM",
+    "end_time": "11:55 PM",
+    "artist_event": "Champagne Drip",
+    "venue": "The Underground",
+    "location": "Raleigh DT",
+    "city": "Raleigh",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "9:00 PM",
+    "end_time": "11:55 PM",
+    "artist_event": "Rooftop DJ: Logan",
+    "venue": "Tin Roof",
+    "location": "Raleigh DT",
+    "city": "Raleigh",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "9:00 PM",
+    "end_time": "11:55 PM",
+    "artist_event": "Alibi",
+    "venue": "Korner Pocket",
+    "location": "Raleigh N",
+    "city": "Raleigh",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "9:00 PM",
+    "end_time": "11:55 PM",
+    "artist_event": "Brent Stimmel",
+    "venue": "The Piper's Restaurant & Tavern",
+    "location": "Raleigh N",
+    "city": "Raleigh",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "9:00 PM",
+    "end_time": "11:55 PM",
+    "artist_event": "Peridot Sun",
+    "venue": "Hero's Pub & Sandwich Shop",
+    "location": "Raleigh N",
+    "city": "Raleigh",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "9:00 PM",
+    "end_time": "11:55 PM",
+    "artist_event": "Sterling Scott",
+    "venue": "The Pickled Onion 2 - Umstead",
+    "location": "Raleigh NW",
+    "city": "Raleigh",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "9:00 PM",
+    "end_time": "11:55 PM",
+    "artist_event": "454 Band",
+    "venue": "Real McCoy's",
+    "location": "Wake Forest S",
+    "city": "Wake",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "9:00 PM",
+    "end_time": "11:55 PM",
+    "artist_event": "DJ Mekl",
+    "venue": "The Cardinal Bar Wake Forest",
+    "location": "Wake Forest S",
+    "city": "Wake",
+    "category": "DJ"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "9:00 PM",
+    "end_time": "11:55 PM",
+    "artist_event": "Karaoke w/ Nick Driver",
+    "venue": "Smash Masters",
+    "location": "Zebulon SW",
+    "city": "Zebulon",
+    "category": "Karaoke"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "9:30 PM",
+    "end_time": "11:55 PM",
+    "artist_event": "Outlaw6",
+    "venue": "The Junction - Benson",
+    "location": "Benson NE",
+    "city": "Benson",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "9:30 PM",
+    "end_time": "11:55 PM",
+    "artist_event": "Karaoke",
+    "venue": "Sports Page Bar & Grill",
+    "location": "Knightdale NW",
+    "city": "Knightdale",
+    "category": "Karaoke"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "9:30 PM",
+    "end_time": "11:55 PM",
+    "artist_event": "Sixteen Penny Band",
+    "venue": "Uncle Jessie's Honkytonk",
+    "location": "Raleigh N",
+    "city": "Raleigh",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "10:00 PM",
+    "end_time": "11:55 PM",
+    "artist_event": "LaureNicole Band",
+    "venue": "The Cardinal Bar Clayton",
+    "location": "Clayton DT",
+    "city": "Clayton",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "10:00 PM",
+    "end_time": "11:55 PM",
+    "artist_event": "The Jinx",
+    "venue": "Tin Roof",
+    "location": "Raleigh DT",
+    "city": "Raleigh",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "10:00 PM",
+    "end_time": "11:55 PM",
+    "artist_event": "Dave Danforth",
+    "venue": "The Cardinal Bar Wilson",
+    "location": "Wilson DT",
+    "city": "Wilson",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sat May 30",
+    "start_time": "11:00 AM",
+    "end_time": "11:55 PM",
+    "artist_event": "DJ Party",
+    "venue": "The Backyard Bar",
+    "location": "Apex W",
+    "city": "Apex",
+    "category": "DJ"
+  },
+  {
+    "date": "Sun May 31",
+    "start_time": "1:00 PM",
+    "end_time": "4:00 PM",
+    "artist_event": "Sugaree String Society",
+    "venue": "Salem Street Pub",
+    "location": "Apex DT",
+    "city": "Apex",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sun May 31",
+    "start_time": "1:00 PM",
+    "end_time": "4:00 PM",
+    "artist_event": "Monika James",
+    "venue": "Cleveland Draft House - Clayton",
+    "location": "Clayton W",
+    "city": "Clayton",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sun May 31",
+    "start_time": "1:00 PM",
+    "end_time": "3:00 PM",
+    "artist_event": "Yoga & Salsa Class (drop-in)",
+    "venue": "Triangle Dance Studios",
+    "location": "Durham SE",
+    "city": "Durham",
+    "category": "Dancing"
+  },
+  {
+    "date": "Sun May 31",
+    "start_time": "1:00 PM",
+    "end_time": "4:00 PM",
+    "artist_event": "Mike Davis",
+    "venue": "Owl's Roost Brewery",
+    "location": "Franklinton DT",
+    "city": "Franklinton",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sun May 31",
+    "start_time": "1:00 PM",
+    "end_time": "4:00 PM",
+    "artist_event": "Greg McGann",
+    "venue": "Bud's Tavern",
+    "location": "Youngsville S",
+    "city": "Youngsville",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sun May 31",
+    "start_time": "2:00 PM",
+    "end_time": "5:00 PM",
+    "artist_event": "Pat Tyler",
+    "venue": "Aviator Brewing Tap House & Kitchen",
+    "location": "Fuquay-Varina",
+    "city": "Fuquay-Varina",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sun May 31",
+    "start_time": "2:00 PM",
+    "end_time": "5:00 PM",
+    "artist_event": "Sterling Scott",
+    "venue": "Aviator Hangar Bar",
+    "location": "Fuquay-Varina",
+    "city": "Fuquay-Varina",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sun May 31",
+    "start_time": "2:00 PM",
+    "end_time": "6:00 PM",
+    "artist_event": "Thomas Hardy",
+    "venue": "Locked & Loaded Bar & Grill",
+    "location": "Garner NW",
+    "city": "Garner",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sun May 31",
+    "start_time": "2:00 PM",
+    "end_time": "6:00 PM",
+    "artist_event": "Open Mic w/ Josh Rhyne",
+    "venue": "Krafty's Pizza Pub",
+    "location": "Garner SE",
+    "city": "Garner",
+    "category": "Karaoke"
+  },
+  {
+    "date": "Sun May 31",
+    "start_time": "2:00 PM",
+    "end_time": "6:00 PM",
+    "artist_event": "Pittsboro Summer Fest",
+    "venue": "Main Street Pittsboro",
+    "location": "Pittsboro DT",
+    "city": "Pittsboro",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sun May 31",
+    "start_time": "2:00 PM",
+    "end_time": "5:00 PM",
+    "artist_event": "Joe Conroy @Sundays In Midtown",
+    "venue": "Coastal Credit Union Midtown Park",
+    "location": "Raleigh",
+    "city": "Raleigh",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sun May 31",
+    "start_time": "2:00 PM",
+    "end_time": "6:00 PM",
+    "artist_event": "Ryan Mullaney",
+    "venue": "O'Malley's Pub & Restaurant",
+    "location": "Raleigh NW",
+    "city": "Raleigh",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sun May 31",
+    "start_time": "3:00 PM",
+    "end_time": "6:00 PM",
+    "artist_event": "Unraveled Band",
+    "venue": "White Oak Grill & Lounge (WOG)",
+    "location": "Garner SE",
+    "city": "Garner",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sun May 31",
+    "start_time": "3:00 PM",
+    "end_time": "7:00 PM",
+    "artist_event": "Mark Cimerro",
+    "venue": "Saints & Scholars Pub",
+    "location": "Raleigh N",
+    "city": "Raleigh",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sun May 31",
+    "start_time": "3:00 PM",
+    "end_time": "5:00 PM",
+    "artist_event": "Patio Jam Session",
+    "venue": "House Creek Beverage Company",
+    "location": "Raleigh NW",
+    "city": "Raleigh",
+    "category": "Jam Session"
+  },
+  {
+    "date": "Sun May 31",
+    "start_time": "3:00 PM",
+    "end_time": "6:00 PM",
+    "artist_event": "Open Mic by SRE",
+    "venue": "Gizmo Brew Works - Raleigh",
+    "location": "Raleigh NW",
+    "city": "Raleigh",
+    "category": "Karaoke"
+  },
+  {
+    "date": "Sun May 31",
+    "start_time": "4:00 PM",
+    "end_time": "7:00 PM",
+    "artist_event": "80\u2019s Theme Brunch Party",
+    "venue": "Osteria G",
+    "location": "Apex SE",
+    "city": "Apex",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sun May 31",
+    "start_time": "4:00 PM",
+    "end_time": "7:00 PM",
+    "artist_event": "Bluegrass Jam w/ Eastside Ramblers",
+    "venue": "Eastside Music Venue",
+    "location": "Cary",
+    "city": "Cary",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sun May 31",
+    "start_time": "4:00 PM",
+    "end_time": "7:00 PM",
+    "artist_event": "Sonam Chorus (Benefit Urban Ministries)",
+    "venue": "Duke University Chapel",
+    "location": "Durham NW",
+    "city": "Durham",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sun May 31",
+    "start_time": "4:00 PM",
+    "end_time": "7:00 PM",
+    "artist_event": "Hymn Sing (Free)",
+    "venue": "Lorraine's Coffee House & Music",
+    "location": "Garner S",
+    "city": "Garner",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sun May 31",
+    "start_time": "4:00 PM",
+    "end_time": "7:00 PM",
+    "artist_event": "Chad Memorial Jam",
+    "venue": "Scooter's Bar & Grill",
+    "location": "Raleigh N",
+    "city": "Raleigh",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sun May 31",
+    "start_time": "4:00 PM",
+    "end_time": "7:00 PM",
+    "artist_event": "Derek Chase",
+    "venue": "Salty Turtle Beer Co.",
+    "location": "Raleigh N",
+    "city": "Raleigh",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sun May 31",
+    "start_time": "5:00 PM",
+    "end_time": "8:00 PM",
+    "artist_event": "Calvary's Hill Quartet",
+    "venue": "Fairfield Church",
+    "location": "Efland N",
+    "city": "Efland",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sun May 31",
+    "start_time": "5:30 PM",
+    "end_time": "10:00 PM",
+    "artist_event": "Lisa Lewis Was A Good Egg",
+    "venue": "Lincoln Theatre",
+    "location": "Raleigh DT",
+    "city": "Raleigh",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sun May 31",
+    "start_time": "5:30 PM",
+    "end_time": "7:30 PM",
+    "artist_event": "Snapback @Six Sundays in Spring",
+    "venue": "Carroll Joyner Park Amphitheater",
+    "location": "Wake Forest N",
+    "city": "Wake",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sun May 31",
+    "start_time": "6:00 PM",
+    "end_time": "8:00 PM",
+    "artist_event": "Country Swing Lessons",
+    "venue": "Hangout Bar & Grill",
+    "location": "Cary S",
+    "city": "Cary",
+    "category": "Dancing"
+  },
+  {
+    "date": "Sun May 31",
+    "start_time": "6:00 PM",
+    "end_time": "10:00 PM",
+    "artist_event": "Latin Dance Social w/ Sabor",
+    "venue": "Split Raleigh",
+    "location": "Raleigh DT",
+    "city": "Raleigh",
+    "category": "Dancing"
+  },
+  {
+    "date": "Sun May 31",
+    "start_time": "6:00 PM",
+    "end_time": "9:00 PM",
+    "artist_event": "Insane Clown Posse",
+    "venue": "The Ritz",
+    "location": "Raleigh N",
+    "city": "Raleigh",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sun May 31",
+    "start_time": "6:00 PM",
+    "end_time": "10:30 PM",
+    "artist_event": "CDC Swing Dance+Class $10-15",
+    "venue": "Elks Lodge - Raleigh #735",
+    "location": "Raleigh N",
+    "city": "Raleigh",
+    "category": "Dancing"
+  },
+  {
+    "date": "Sun May 31",
+    "start_time": "6:00 PM",
+    "end_time": "9:00 PM",
+    "artist_event": "Busker Night",
+    "venue": "Tonic Bar & Social Club of WF",
+    "location": "Wake Forest",
+    "city": "Wake",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sun May 31",
+    "start_time": "7:00 PM",
+    "end_time": "10:00 PM",
+    "artist_event": "Kerry Long",
+    "venue": "Oaklyn Springs Brewery - Apex",
+    "location": "Apex DT",
+    "city": "Apex",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sun May 31",
+    "start_time": "7:00 PM",
+    "end_time": "9:00 PM",
+    "artist_event": "Music Bingo",
+    "venue": "Mac's Tavern",
+    "location": "Cary E",
+    "city": "Cary",
+    "category": "Bingo"
+  },
+  {
+    "date": "Sun May 31",
+    "start_time": "7:00 PM",
+    "end_time": "9:00 PM",
+    "artist_event": "Sunday Open Mic",
+    "venue": "Moon Dog Meadery & Bottle Shop",
+    "location": "Durham NW",
+    "city": "Durham",
+    "category": "Karaoke"
+  },
+  {
+    "date": "Sun May 31",
+    "start_time": "7:00 PM",
+    "end_time": "10:00 PM",
+    "artist_event": "Traci Marie (Taylor Swift)",
+    "venue": "The Ox Theater",
+    "location": "Oxford",
+    "city": "Oxford",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sun May 31",
+    "start_time": "7:00 PM",
+    "end_time": "10:00 PM",
+    "artist_event": "Russ Thompson",
+    "venue": "O'Malley's Pub & Restaurant",
+    "location": "Raleigh NW",
+    "city": "Raleigh",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sun May 31",
+    "start_time": "8:00 PM",
+    "end_time": "11:00 PM",
+    "artist_event": "Karaoke w/ DJ DC Price",
+    "venue": "The Corner Tavern & Grill",
+    "location": "Cary W",
+    "city": "Cary",
+    "category": "Karaoke"
+  },
+  {
+    "date": "Sun May 31",
+    "start_time": "8:00 PM",
+    "end_time": "11:00 PM",
+    "artist_event": "John Hollier & The Reverie, Drew Foust ($)",
+    "venue": "The Pour House Music Hall",
+    "location": "Raleigh DT",
+    "city": "Raleigh",
+    "category": "Live Music"
+  },
+  {
+    "date": "Sun May 31",
+    "start_time": "9:00 PM",
+    "end_time": "11:55 PM",
+    "artist_event": "Karaoke Night w/Empress",
+    "venue": "Speakeasy Carrboro",
+    "location": "Carrboro DT",
+    "city": "Carrboro",
+    "category": "Karaoke"
+  },
+  {
+    "date": "Sun May 31",
+    "start_time": "9:00 PM",
+    "end_time": "11:55 PM",
+    "artist_event": "Swing & Line Dancing",
+    "venue": "Hangout Bar & Grill",
+    "location": "Cary S",
+    "city": "Cary",
+    "category": "Dancing"
+  },
+  {
+    "date": "Sun May 31",
+    "start_time": "9:00 PM",
+    "end_time": "11:55 PM",
+    "artist_event": "Salsa Sunday- Service Industry Night",
+    "venue": "Hero's Pub & Sandwich Shop",
+    "location": "Raleigh N",
+    "city": "Raleigh",
+    "category": "Dancing"
+  },
+  {
+    "date": "Mon Jun 01",
+    "start_time": "6:00 PM",
+    "end_time": "8:00 PM",
+    "artist_event": "Music Bingo w/ DJ Gino",
+    "venue": "McWally's",
+    "location": "Fuquay-Varina N",
+    "city": "Fuquay-Varina",
+    "category": "Bingo"
+  },
+  {
+    "date": "Mon Jun 01",
+    "start_time": "6:00 PM",
+    "end_time": "9:00 PM",
+    "artist_event": "Open Mic Originals w/Frank",
+    "venue": "The Flying Biscuit Cafe",
+    "location": "Raleigh W",
+    "city": "Raleigh",
+    "category": "Karaoke"
+  },
+  {
+    "date": "Mon Jun 01",
+    "start_time": "6:45 PM",
+    "end_time": "10:00 PM",
+    "artist_event": "WC Swing Lessons ($10/$12)",
+    "venue": "Loafers Beach Club",
+    "location": "Raleigh N",
+    "city": "Raleigh",
+    "category": "Dancing"
+  },
+  {
+    "date": "Mon Jun 01",
+    "start_time": "7:00 PM",
+    "end_time": "9:00 PM",
+    "artist_event": "Music Bingo",
+    "venue": "Oaklyn Springs Brewery - Apex",
+    "location": "Apex DT",
+    "city": "Apex",
+    "category": "Bingo"
+  },
+  {
+    "date": "Mon Jun 01",
+    "start_time": "7:00 PM",
+    "end_time": "11:00 PM",
+    "artist_event": "Daniel Anderson & Friends Blues Jam",
+    "venue": "The Corner Tavern & Grill",
+    "location": "Cary W",
+    "city": "Cary",
+    "category": "Live Music"
+  },
+  {
+    "date": "Mon Jun 01",
+    "start_time": "7:00 PM",
+    "end_time": "10:00 PM",
+    "artist_event": "Open Mic w/ Adam Lee Decker",
+    "venue": "Bralie's Sports Bar 1 - RTP",
+    "location": "Durham S",
+    "city": "Durham",
+    "category": "Karaoke"
+  },
+  {
+    "date": "Mon Jun 01",
+    "start_time": "7:00 PM",
+    "end_time": "9:00 PM",
+    "artist_event": "Music Bingo",
+    "venue": "Gizmo Brew Works - Durham",
+    "location": "Durham SW",
+    "city": "Durham",
+    "category": "Bingo"
+  },
+  {
+    "date": "Mon Jun 01",
+    "start_time": "7:00 PM",
+    "end_time": "10:00 PM",
+    "artist_event": "Open Mic Mondays w/ Brian Jones",
+    "venue": "Scooter's Bar & Grill",
+    "location": "Raleigh N",
+    "city": "Raleigh",
+    "category": "Karaoke"
+  },
+  {
+    "date": "Mon Jun 01",
+    "start_time": "7:00 PM",
+    "end_time": "10:00 PM",
+    "artist_event": "Sterling Scott",
+    "venue": "O'Malley's Pub & Restaurant",
+    "location": "Raleigh NW",
+    "city": "Raleigh",
+    "category": "Live Music"
+  },
+  {
+    "date": "Mon Jun 01",
+    "start_time": "7:00 PM",
+    "end_time": "9:00 PM",
+    "artist_event": "Music Bingo",
+    "venue": "The Local",
+    "location": "Raleigh W",
+    "city": "Raleigh",
+    "category": "Bingo"
+  },
+  {
+    "date": "Mon Jun 01",
+    "start_time": "7:00 PM",
+    "end_time": "10:00 PM",
+    "artist_event": "Karaoke",
+    "venue": "Lonerider Brewing - Wake Forest",
+    "location": "Wake Forest S",
+    "city": "Wake",
+    "category": "Karaoke"
+  },
+  {
+    "date": "Mon Jun 01",
+    "start_time": "7:30 PM",
+    "end_time": "11:55 PM",
+    "artist_event": "Carrboro Open Mic",
+    "venue": "Speakeasy Carrboro",
+    "location": "Carrboro DT",
+    "city": "Carrboro",
+    "category": "Karaoke"
+  },
+  {
+    "date": "Mon Jun 01",
+    "start_time": "7:30 PM",
+    "end_time": "9:30 PM",
+    "artist_event": "NC Revelers Orchestra ($)",
+    "venue": "Hangout Bar & Grill",
+    "location": "Cary S",
+    "city": "Cary",
+    "category": "Live Music"
+  },
+  {
+    "date": "Mon Jun 01",
+    "start_time": "7:30 PM",
+    "end_time": "10:30 PM",
+    "artist_event": "Blue Monday Goth Night \ud83e\udd87",
+    "venue": "Chapel of Bones",
+    "location": "Raleigh SW",
+    "city": "Raleigh",
+    "category": "Live Music"
+  },
+  {
+    "date": "Mon Jun 01",
+    "start_time": "8:00 PM",
+    "end_time": "11:45 PM",
+    "artist_event": "Karaoke",
+    "venue": "Raleigh Beer Garden",
+    "location": "Raleigh",
+    "city": "Raleigh",
+    "category": "Karaoke"
+  },
+  {
+    "date": "Mon Jun 01",
+    "start_time": "8:00 PM",
+    "end_time": "11:00 PM",
+    "artist_event": "Open Mic w/ Karl Mann by SRE",
+    "venue": "Snooker's",
+    "location": "Raleigh W",
+    "city": "Raleigh",
+    "category": "Karaoke"
+  },
+  {
+    "date": "Mon Jun 01",
+    "start_time": "9:00 PM",
+    "end_time": "11:55 PM",
+    "artist_event": "Jazz Jam Night",
+    "venue": "The Cave",
+    "location": "Chapel Hill W",
+    "city": "Chapel",
+    "category": "Jam Session"
+  },
+  {
+    "date": "Tue Jun 02",
+    "start_time": "6:00 PM",
+    "end_time": "9:00 PM",
+    "artist_event": "Live Irish Music",
+    "venue": "Doherty's Irish Pub - Apex",
+    "location": "Apex",
+    "city": "Apex",
+    "category": "Live Music"
+  },
+  {
+    "date": "Tue Jun 02",
+    "start_time": "6:00 PM",
+    "end_time": "9:00 PM",
+    "artist_event": "Open Mic w/Salem Street & JC",
+    "venue": "Oaklyn Springs Brewery - Apex",
+    "location": "Apex DT",
+    "city": "Apex",
+    "category": "Karaoke"
+  },
+  {
+    "date": "Tue Jun 02",
+    "start_time": "6:30 PM",
+    "end_time": "7:30 PM",
+    "artist_event": "Line Dance Classes (Beg-Improver)",
+    "venue": "Mystic Farm & Distilling Company",
+    "location": "DurhamE",
+    "city": "DurhamE",
+    "category": "Dancing"
+  },
+  {
+    "date": "Tue Jun 02",
+    "start_time": "6:30 PM",
+    "end_time": "10:00 PM",
+    "artist_event": "Music Bingo w/ Josh D",
+    "venue": "Saints & Scholars Pub",
+    "location": "Raleigh N",
+    "city": "Raleigh",
+    "category": "Bingo"
+  },
+  {
+    "date": "Tue Jun 02",
+    "start_time": "7:00 PM",
+    "end_time": "10:00 PM",
+    "artist_event": "Beer & Banjos",
+    "venue": "Speakeasy Carrboro",
+    "location": "Carrboro DT",
+    "city": "Carrboro",
+    "category": "Live Music"
+  },
+  {
+    "date": "Tue Jun 02",
+    "start_time": "7:00 PM",
+    "end_time": "9:00 PM",
+    "artist_event": "Open Mic",
+    "venue": "The Williams House: Craft Taproom",
+    "location": "Cary",
+    "city": "Cary",
+    "category": "Karaoke"
+  },
+  {
+    "date": "Tue Jun 02",
+    "start_time": "7:00 PM",
+    "end_time": "9:00 PM",
+    "artist_event": "Music Bingo",
+    "venue": "Woody's Sports Tavern - Cary",
+    "location": "Cary DT",
+    "city": "Cary",
+    "category": "Bingo"
+  },
+  {
+    "date": "Tue Jun 02",
+    "start_time": "7:00 PM",
+    "end_time": "10:00 PM",
+    "artist_event": "Open Mic w/ Sterling Scott",
+    "venue": "Vicious Fishes Brewery - Cary",
+    "location": "Cary DT",
+    "city": "Cary",
+    "category": "Karaoke"
+  },
+  {
+    "date": "Tue Jun 02",
+    "start_time": "7:00 PM",
+    "end_time": "10:00 PM",
+    "artist_event": "Tuesday Blues Jam",
+    "venue": "The Blue Note Grill",
+    "location": "Durham",
+    "city": "Durham",
+    "category": "Live Music"
+  },
+  {
+    "date": "Tue Jun 02",
+    "start_time": "7:00 PM",
+    "end_time": "8:30 PM",
+    "artist_event": "MaksBeat Radio Show: Hobolectuals",
+    "venue": "Shady's",
+    "location": "Garner DT",
+    "city": "Garner",
+    "category": "Live Music"
+  },
+  {
+    "date": "Tue Jun 02",
+    "start_time": "7:00 PM",
+    "end_time": "9:00 PM",
+    "artist_event": "Music Bingo Night",
+    "venue": "Black Dog Bottle Shop",
+    "location": "Holly Springs DT",
+    "city": "Holly",
+    "category": "Bingo"
+  },
+  {
+    "date": "Tue Jun 02",
+    "start_time": "7:00 PM",
+    "end_time": "10:00 PM",
+    "artist_event": "Open Mic",
+    "venue": "Niche Wine Lounge",
+    "location": "Holly Springs DT",
+    "city": "Holly",
+    "category": "Karaoke"
+  },
+  {
+    "date": "Tue Jun 02",
+    "start_time": "7:00 PM",
+    "end_time": "9:00 PM",
+    "artist_event": "Tacos, Tequila, & Music Bingo",
+    "venue": "Tin Roof",
+    "location": "Raleigh DT",
+    "city": "Raleigh",
+    "category": "Bingo"
+  },
+  {
+    "date": "Tue Jun 02",
+    "start_time": "7:00 PM",
+    "end_time": "10:00 PM",
+    "artist_event": "High Fade, Julia",
+    "venue": "Lincoln Theatre",
+    "location": "Raleigh DT",
+    "city": "Raleigh",
+    "category": "Live Music"
+  },
+  {
+    "date": "Tue Jun 02",
+    "start_time": "7:00 PM",
+    "end_time": "11:00 PM",
+    "artist_event": "Karaoke",
+    "venue": "Teets",
+    "location": "Raleigh DT",
+    "city": "Raleigh",
+    "category": "Karaoke"
+  },
+  {
+    "date": "Tue Jun 02",
+    "start_time": "7:00 PM",
+    "end_time": "9:15 PM",
+    "artist_event": "Carolina Shag Lessons (4wks $40+)",
+    "venue": "Loafers Beach Club",
+    "location": "Raleigh N",
+    "city": "Raleigh",
+    "category": "Live Music"
+  },
+  {
+    "date": "Tue Jun 02",
+    "start_time": "7:00 PM",
+    "end_time": "10:00 PM",
+    "artist_event": "Corbyn Besson & Soulidified",
+    "venue": "The Ritz",
+    "location": "Raleigh N",
+    "city": "Raleigh",
+    "category": "Live Music"
+  },
+  {
+    "date": "Tue Jun 02",
+    "start_time": "7:00 PM",
+    "end_time": "9:00 PM",
+    "artist_event": "Music Bingo",
+    "venue": "Gizmo Brew Works - Raleigh",
+    "location": "Raleigh NW",
+    "city": "Raleigh",
+    "category": "Bingo"
+  },
+  {
+    "date": "Tue Jun 02",
+    "start_time": "7:00 PM",
+    "end_time": "9:00 PM",
+    "artist_event": "Music Bingo",
+    "venue": "Mellow Mushroom - Brier Creek",
+    "location": "Raleigh NW",
+    "city": "Raleigh",
+    "category": "Bingo"
+  },
+  {
+    "date": "Tue Jun 02",
+    "start_time": "7:00 PM",
+    "end_time": "11:00 PM",
+    "artist_event": "Open Mic by SRE",
+    "venue": "Ruckus Pizza and Bar",
+    "location": "Raleigh S",
+    "city": "Raleigh",
+    "category": "Karaoke"
+  },
+  {
+    "date": "Tue Jun 02",
+    "start_time": "7:00 PM",
+    "end_time": "10:00 PM",
+    "artist_event": "Open Mic Night Tuesdays",
+    "venue": "La Piazza Italian Restaurant & Bar",
+    "location": "Roxboro S",
+    "city": "Roxboro",
+    "category": "Karaoke"
+  },
+  {
+    "date": "Tue Jun 02",
+    "start_time": "7:00 PM",
+    "end_time": "10:00 PM",
+    "artist_event": "Flight Jam (Open Jam)",
+    "venue": "Aviator Ready Room",
+    "location": "Varina DT",
+    "city": "Varina",
+    "category": "Jam Session"
+  },
+  {
+    "date": "Tue Jun 02",
+    "start_time": "7:00 PM",
+    "end_time": "10:30 PM",
+    "artist_event": "Karaoke w/ Wanda",
+    "venue": "The Fall Line",
+    "location": "Zebulon DT",
+    "city": "Zebulon",
+    "category": "Karaoke"
+  },
+  {
+    "date": "Tue Jun 02",
+    "start_time": "7:30 PM",
+    "end_time": "9:30 PM",
+    "artist_event": "Music Bingo",
+    "venue": "Bond Brothers Beer Co - Cedar St",
+    "location": "Cary DT",
+    "city": "Cary",
+    "category": "Bingo"
+  },
+  {
+    "date": "Tue Jun 02",
+    "start_time": "7:30 PM",
+    "end_time": "10:30 PM",
+    "artist_event": "Bud's Music Video Bingo",
+    "venue": "Bud's Tavern",
+    "location": "Youngsville S",
+    "city": "Youngsville",
+    "category": "Bingo"
+  },
+  {
+    "date": "Tue Jun 02",
+    "start_time": "8:00 PM",
+    "end_time": "11:00 PM",
+    "artist_event": "Music BIngo",
+    "venue": "Doherty's Irish Pub - Cary",
+    "location": "Cary",
+    "city": "Cary",
+    "category": "Bingo"
+  },
+  {
+    "date": "Tue Jun 02",
+    "start_time": "8:00 PM",
+    "end_time": "11:00 PM",
+    "artist_event": "Jazz Jam Night",
+    "venue": "Kingfisher",
+    "location": "Durham DT",
+    "city": "Durham",
+    "category": "Jam Session"
+  },
+  {
+    "date": "Tue Jun 02",
+    "start_time": "8:00 PM",
+    "end_time": "11:55 PM",
+    "artist_event": "Karaoke",
+    "venue": "The House Bar & Grill",
+    "location": "Durham S",
+    "city": "Durham",
+    "category": "Karaoke"
+  },
+  {
+    "date": "Tue Jun 02",
+    "start_time": "8:00 PM",
+    "end_time": "11:00 PM",
+    "artist_event": "Karaoke",
+    "venue": "Berkeley Cafe",
+    "location": "Raleigh DT",
+    "city": "Raleigh",
+    "category": "Karaoke"
+  },
+  {
+    "date": "Tue Jun 02",
+    "start_time": "8:00 PM",
+    "end_time": "11:55 PM",
+    "artist_event": "BoneZone Karaoke",
+    "venue": "Chapel of Bones",
+    "location": "Raleigh SW",
+    "city": "Raleigh",
+    "category": "Karaoke"
+  },
+  {
+    "date": "Tue Jun 02",
+    "start_time": "8:00 PM",
+    "end_time": "11:55 PM",
+    "artist_event": "Karaoke",
+    "venue": "Flex",
+    "location": "Raleigh W",
+    "city": "Raleigh",
+    "category": "Karaoke"
+  },
+  {
+    "date": "Tue Jun 02",
+    "start_time": "9:00 PM",
+    "end_time": "11:45 PM",
+    "artist_event": "Open Jam Tuesday",
+    "venue": "Slim's Dive Bar",
+    "location": "Raleigh DT",
+    "city": "Raleigh",
+    "category": "Jam Session"
+  },
+  {
+    "date": "Wed Jun 03",
+    "start_time": "5:00 PM",
+    "end_time": "11:00 PM",
+    "artist_event": "Open Jam & Larry Wall's 70th",
+    "venue": "Big Daddy's Road House",
+    "location": "Fuquay-Varina SE",
+    "city": "Fuquay-Varina",
+    "category": "Jam Session"
+  },
+  {
+    "date": "Wed Jun 03",
+    "start_time": "5:30 PM",
+    "end_time": "8:30 PM",
+    "artist_event": "Bounce Party Band @WP Summer Concerts",
+    "venue": "Waverly Place",
+    "location": "Cary",
+    "city": "Cary",
+    "category": "Live Music"
+  },
+  {
+    "date": "Wed Jun 03",
+    "start_time": "5:45 PM",
+    "end_time": "10:00 PM",
+    "artist_event": "Beach-Boogie-Blues Dance ($10+)",
+    "venue": "Loafers Beach Club",
+    "location": "Raleigh N",
+    "city": "Raleigh",
+    "category": "Dancing"
+  },
+  {
+    "date": "Wed Jun 03",
+    "start_time": "6:00 PM",
+    "end_time": "9:00 PM",
+    "artist_event": "Live Jazz",
+    "venue": "The Sycamore at Chatham Mills",
+    "location": "Pittsboro N",
+    "city": "Pittsboro",
+    "category": "Live Music"
+  },
+  {
+    "date": "Wed Jun 03",
+    "start_time": "6:00 PM",
+    "end_time": "9:00 PM",
+    "artist_event": "Live Music",
+    "venue": "Vidrio",
+    "location": "Raleigh DT",
+    "city": "Raleigh",
+    "category": "Live Music"
+  },
+  {
+    "date": "Wed Jun 03",
+    "start_time": "6:00 PM",
+    "end_time": "10:00 PM",
+    "artist_event": "Open Mic w/ Sound by Walls",
+    "venue": "The Brass Tap",
+    "location": "Raleigh N",
+    "city": "Raleigh",
+    "category": "Karaoke"
+  },
+  {
+    "date": "Wed Jun 03",
+    "start_time": "6:30 PM",
+    "end_time": "9:30 PM",
+    "artist_event": "Open Mic SS w/ Garland Mason",
+    "venue": "Eastside Music Venue",
+    "location": "Cary",
+    "city": "Cary",
+    "category": "Karaoke"
+  },
+  {
+    "date": "Wed Jun 03",
+    "start_time": "7:00 PM",
+    "end_time": "10:00 PM",
+    "artist_event": "Wednesday Sessions",
+    "venue": "Speakeasy Carrboro",
+    "location": "Carrboro DT",
+    "city": "Carrboro",
+    "category": "Live Music"
+  },
+  {
+    "date": "Wed Jun 03",
+    "start_time": "7:00 PM",
+    "end_time": "8:30 PM",
+    "artist_event": "Music Bingo",
+    "venue": "The Williams House: Craft Taproom",
+    "location": "Cary",
+    "city": "Cary",
+    "category": "Bingo"
+  },
+  {
+    "date": "Wed Jun 03",
+    "start_time": "7:00 PM",
+    "end_time": "10:00 PM",
+    "artist_event": "Brett's Open Mic",
+    "venue": "The Blue Note Grill",
+    "location": "Durham",
+    "city": "Durham",
+    "category": "Karaoke"
+  },
+  {
+    "date": "Wed Jun 03",
+    "start_time": "7:00 PM",
+    "end_time": "10:00 PM",
+    "artist_event": "Jazz Jam",
+    "venue": "Congress Social Bar",
+    "location": "Durham SE",
+    "city": "Durham",
+    "category": "Live Music"
+  },
+  {
+    "date": "Wed Jun 03",
+    "start_time": "7:00 PM",
+    "end_time": "10:00 PM",
+    "artist_event": "Maverick Rose Music (Podcast)",
+    "venue": "Niche Wine Lounge",
+    "location": "Holly Springs DT",
+    "city": "Holly",
+    "category": "Live Music"
+  },
+  {
+    "date": "Wed Jun 03",
+    "start_time": "7:00 PM",
+    "end_time": "9:00 PM",
+    "artist_event": "Music Bingo w/ DJ Tenille Byers",
+    "venue": "Walley's Tavern",
+    "location": "Holly Springs S",
+    "city": "Holly",
+    "category": "Bingo"
+  },
+  {
+    "date": "Wed Jun 03",
+    "start_time": "7:00 PM",
+    "end_time": "10:00 PM",
+    "artist_event": "Karaoke DJ Dance",
+    "venue": "Grog Alley",
+    "location": "Raleigh DT",
+    "city": "Raleigh",
+    "category": "Karaoke"
+  },
+  {
+    "date": "Wed Jun 03",
+    "start_time": "7:00 PM",
+    "end_time": "10:00 PM",
+    "artist_event": "Ari Lennox - The Vacancy Tour",
+    "venue": "The Ritz",
+    "location": "Raleigh N",
+    "city": "Raleigh",
+    "category": "Live Music"
+  },
+  {
+    "date": "Wed Jun 03",
+    "start_time": "7:00 PM",
+    "end_time": "9:00 PM",
+    "artist_event": "HomeSchoolers",
+    "venue": "Fairwood Lanes Misfits Bar & Grill",
+    "location": "Roanoke Rapids SE",
+    "city": "Roanoke",
+    "category": "Live Music"
+  },
+  {
+    "date": "Wed Jun 03",
+    "start_time": "7:00 PM",
+    "end_time": "9:00 PM",
+    "artist_event": "Music Bingo",
+    "venue": "Fortnight Brewing Wake Forest",
+    "location": "Wake Forest S",
+    "city": "Wake",
+    "category": "Bingo"
+  },
+  {
+    "date": "Wed Jun 03",
+    "start_time": "7:00 PM",
+    "end_time": "10:00 PM",
+    "artist_event": "Bud's Karaoke",
+    "venue": "Bud's Tavern",
+    "location": "Youngsville S",
+    "city": "Youngsville",
+    "category": "Karaoke"
+  },
+  {
+    "date": "Wed Jun 03",
+    "start_time": "7:00 PM",
+    "end_time": "10:00 PM",
+    "artist_event": "Open Mic w/ Paul",
+    "venue": "Smash Masters",
+    "location": "Zebulon SW",
+    "city": "Zebulon",
+    "category": "Karaoke"
+  },
+  {
+    "date": "Wed Jun 03",
+    "start_time": "7:30 PM",
+    "end_time": "10:30 PM",
+    "artist_event": "Oliver Anthony Music",
+    "venue": "Lincoln Theatre",
+    "location": "Raleigh DT",
+    "city": "Raleigh",
+    "category": "Live Music"
+  },
+  {
+    "date": "Wed Jun 03",
+    "start_time": "7:30 PM",
+    "end_time": "11:00 PM",
+    "artist_event": "Karaoke w/ Wanda",
+    "venue": "Saints & Scholars Pub",
+    "location": "Raleigh N",
+    "city": "Raleigh",
+    "category": "Karaoke"
+  },
+  {
+    "date": "Wed Jun 03",
+    "start_time": "7:45 PM",
+    "end_time": "11:55 PM",
+    "artist_event": "Karaoke & Comedy",
+    "venue": "Cannonball Music Hall",
+    "location": "Raleigh N",
+    "city": "Raleigh",
+    "category": "Karaoke"
+  },
+  {
+    "date": "Wed Jun 03",
+    "start_time": "8:00 PM",
+    "end_time": "11:00 PM",
+    "artist_event": "Karaoke w/ DJ Nick",
+    "venue": "The Backyard Bar",
+    "location": "Apex W",
+    "city": "Apex",
+    "category": "Karaoke"
+  },
+  {
+    "date": "Wed Jun 03",
+    "start_time": "8:00 PM",
+    "end_time": "11:00 PM",
+    "artist_event": "Open Mic w/ Karl Mann",
+    "venue": "Abbey Road Tavern & Grill - Cary",
+    "location": "Cary SW",
+    "city": "Cary",
+    "category": "Karaoke"
+  },
+  {
+    "date": "Wed Jun 03",
+    "start_time": "8:00 PM",
+    "end_time": "11:55 PM",
+    "artist_event": "DJ skill share (open decks)",
+    "venue": "Pinhook",
+    "location": "Durham DT",
+    "city": "Durham",
+    "category": "DJ"
+  },
+  {
+    "date": "Wed Jun 03",
+    "start_time": "8:00 PM",
+    "end_time": "10:00 PM",
+    "artist_event": "Music Bingo",
+    "venue": "My Way Tavern - Raleigh",
+    "location": "Raleigh DT",
+    "city": "Raleigh",
+    "category": "Bingo"
+  },
+  {
+    "date": "Wed Jun 03",
+    "start_time": "8:00 PM",
+    "end_time": "11:00 PM",
+    "artist_event": "Jazz w/ Al Strong & Friends",
+    "venue": "Boatman Spirits Co.",
+    "location": "Raleigh DT",
+    "city": "Raleigh",
+    "category": "Live Music"
+  },
+  {
+    "date": "Wed Jun 03",
+    "start_time": "8:00 PM",
+    "end_time": "11:00 PM",
+    "artist_event": "Live Jazz: Jam Session",
+    "venue": "Moon Room",
+    "location": "Raleigh DT",
+    "city": "Raleigh",
+    "category": "Jam Session"
+  },
+  {
+    "date": "Wed Jun 03",
+    "start_time": "8:00 PM",
+    "end_time": "11:00 PM",
+    "artist_event": "Open Mic",
+    "venue": "Berkeley Cafe",
+    "location": "Raleigh DT",
+    "city": "Raleigh",
+    "category": "Karaoke"
+  },
+  {
+    "date": "Wed Jun 03",
+    "start_time": "8:00 PM",
+    "end_time": "11:55 PM",
+    "artist_event": "Open Mic w/ Brian Jones by SRE",
+    "venue": "Hero's Pub & Sandwich Shop",
+    "location": "Raleigh N",
+    "city": "Raleigh",
+    "category": "Karaoke"
+  },
+  {
+    "date": "Wed Jun 03",
+    "start_time": "8:00 PM",
+    "end_time": "11:00 PM",
+    "artist_event": "Gravity Trio Jazz Jam",
+    "venue": "Broadsides",
+    "location": "Wake Forest DT",
+    "city": "Wake",
+    "category": "Live Music"
+  },
+  {
+    "date": "Wed Jun 03",
+    "start_time": "8:00 PM",
+    "end_time": "10:00 PM",
+    "artist_event": "Rickey Johnson",
+    "venue": "Real McCoy's",
+    "location": "Wake Forest S",
+    "city": "Wake",
+    "category": "Live Music"
+  },
+  {
+    "date": "Wed Jun 03",
+    "start_time": "8:00 PM",
+    "end_time": "11:00 PM",
+    "artist_event": "Karaoke",
+    "venue": "Carolina Ale House - Wake Forest",
+    "location": "Wake Forest W",
+    "city": "Wake",
+    "category": "Karaoke"
+  },
+  {
+    "date": "Wed Jun 03",
+    "start_time": "8:30 PM",
+    "end_time": "11:55 PM",
+    "artist_event": "Karaoke",
+    "venue": "The Parkway Tavern",
+    "location": "Cary W",
+    "city": "Cary",
+    "category": "Karaoke"
+  },
+  {
+    "date": "Wed Jun 03",
+    "start_time": "8:30 PM",
+    "end_time": "11:30 PM",
+    "artist_event": "CUYA Latin Dance Social",
+    "venue": "Cuya Cocktail Bar",
+    "location": "Raleigh DT",
+    "city": "Raleigh",
+    "category": "Dancing"
+  },
+  {
+    "date": "Wed Jun 03",
+    "start_time": "9:00 PM",
+    "end_time": "11:55 PM",
+    "artist_event": "Karaoke",
+    "venue": "Neptunes Parlour",
+    "location": "Raleigh",
+    "city": "Raleigh",
+    "category": "Karaoke"
+  },
+  {
+    "date": "Wed Jun 03",
+    "start_time": "9:00 PM",
+    "end_time": "11:55 PM",
+    "artist_event": "Karaoke",
+    "venue": "Tin Roof",
+    "location": "Raleigh DT",
+    "city": "Raleigh",
+    "category": "Karaoke"
   }
 ]

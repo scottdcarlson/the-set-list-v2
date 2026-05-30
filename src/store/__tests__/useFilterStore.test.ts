@@ -4,7 +4,8 @@ import { useFilterStore } from '../useFilterStore'
 describe('useFilterStore', () => {
   beforeEach(() => {
     useFilterStore.setState({
-      selectedDays: [],
+      selectedDay: '',
+      selectedTime: '',
       selectedCategories: [],
       selectedCities: [],
     })
@@ -12,20 +13,20 @@ describe('useFilterStore', () => {
 
   it('has empty initial state', () => {
     const state = useFilterStore.getState()
-    expect(state.selectedDays).toEqual([])
+    expect(state.selectedDay).toEqual('')
+    expect(state.selectedTime).toEqual('')
     expect(state.selectedCategories).toEqual([])
     expect(state.selectedCities).toEqual([])
   })
 
-  it('toggleDay adds day when not in list', () => {
-    useFilterStore.getState().toggleDay('Sat Feb 28')
-    expect(useFilterStore.getState().selectedDays).toContain('Sat Feb 28')
+  it('setSelectedDay updates day', () => {
+    useFilterStore.getState().setSelectedDay('Sat Feb 28')
+    expect(useFilterStore.getState().selectedDay).toEqual('Sat Feb 28')
   })
 
-  it('toggleDay removes day when in list', () => {
-    useFilterStore.setState({ selectedDays: ['Sat Feb 28'] })
-    useFilterStore.getState().toggleDay('Sat Feb 28')
-    expect(useFilterStore.getState().selectedDays).not.toContain('Sat Feb 28')
+  it('setSelectedTime updates time', () => {
+    useFilterStore.getState().setSelectedTime('7:30 PM')
+    expect(useFilterStore.getState().selectedTime).toEqual('7:30 PM')
   })
 
   it('toggleCategory adds category when not in list', () => {
@@ -52,13 +53,15 @@ describe('useFilterStore', () => {
 
   it('clearAll resets all filters', () => {
     useFilterStore.setState({
-      selectedDays: ['Sat Feb 28'],
+      selectedDay: 'Sat Feb 28',
+      selectedTime: '7:30 PM',
       selectedCategories: ['Rock'],
       selectedCities: ['Durham'],
     })
     useFilterStore.getState().clearAll()
     const state = useFilterStore.getState()
-    expect(state.selectedDays).toEqual([])
+    expect(state.selectedDay).toEqual('')
+    expect(state.selectedTime).toEqual('')
     expect(state.selectedCategories).toEqual([])
     expect(state.selectedCities).toEqual([])
   })

@@ -33,7 +33,8 @@ describe('EventsPage', () => {
       error: null,
     })
     useFilterStore.setState({
-      selectedDays: [],
+      selectedDay: '',
+      selectedTime: '',
       selectedCategories: [],
       selectedCities: [],
     })
