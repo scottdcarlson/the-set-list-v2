@@ -2,7 +2,7 @@ import { useEffect, useMemo } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useEventStore } from '../store/useEventStore'
 import { useFilterStore } from '../store/useFilterStore'
-import { groupEventsByDate } from '../utils/dateGrouping'
+import { filterUpcomingEvents, groupEventsByDate } from '../utils/dateGrouping'
 import { DateGroupHeader } from '../components/DateGroupHeader'
 import { EventCard } from '../components/EventCard'
 import { FilterChips } from '../components/FilterChips'
@@ -19,8 +19,10 @@ export function EventsPage() {
     void fetchEvents()
   }, [])
 
+  const upcomingEvents = useMemo(() => filterUpcomingEvents(events), [events])
+
   const filteredEvents = useMemo(() => {
-    return events.filter((event) => {
+    return upcomingEvents.filter((event) => {
       if (selectedDay && event.date !== selectedDay) {
         return false
       }
@@ -35,7 +37,7 @@ export function EventsPage() {
       }
       return true
     })
-  }, [events, selectedDay, selectedTime, selectedCategories, selectedCities])
+  }, [upcomingEvents, selectedDay, selectedTime, selectedCategories, selectedCities])
 
   if (loading) {
     return (
@@ -69,12 +71,12 @@ export function EventsPage() {
   return (
     <div className="p-4">
       <h1 className="text-2xl font-bold text-[#F59E0B] mb-4">The Set List</h1>
-      <FilterChips events={events} />
+      <FilterChips events={upcomingEvents} />
       {filteredEvents.length === 0 ? (
         <EmptyState
           icon="🎵"
-          title="No events found"
-          subtitle="Try adjusting your filters"
+          title="No upcoming events found"
+          subtitle="The schedule feed may need a refresh"
         />
       ) : (
         groups.map((group) => (

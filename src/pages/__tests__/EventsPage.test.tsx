@@ -14,6 +14,10 @@ vi.mock('../../utils/dateGrouping', async () => {
       const { groupEventsByDate } = actual as { groupEventsByDate: (events: unknown[], now: Date) => unknown }
       return groupEventsByDate(events, new Date('2026-02-28T18:00:00'))
     },
+    filterUpcomingEvents: (events: unknown[]) => {
+      const { filterUpcomingEvents } = actual as { filterUpcomingEvents: (events: unknown[], now: Date) => unknown }
+      return filterUpcomingEvents(events, new Date('2026-02-28T18:00:00'))
+    },
   }
 })
 
@@ -85,6 +89,40 @@ describe('EventsPage', () => {
     expect(screen.getByText('TOMORROW')).toBeInTheDocument()
     expect(screen.getByText('The Mountain Goats')).toBeInTheDocument()
     expect(screen.getByText('Sylvan Esso')).toBeInTheDocument()
+  })
+
+  it('does not render past events', async () => {
+    const mockEvents = [
+      {
+        artist_event: 'Yesterday Band',
+        venue: 'Old Room',
+        date: 'Fri Feb 27',
+        start_time: '8:00 PM',
+        city: 'Durham',
+        category: 'Indie',
+      },
+      {
+        artist_event: 'Tonight Band',
+        venue: 'Current Room',
+        date: 'Sat Feb 28',
+        start_time: '9:00 PM',
+        city: 'Durham',
+        category: 'Electronic',
+      },
+    ]
+
+    vi.spyOn(globalThis, 'fetch').mockResolvedValue({
+      ok: true,
+      json: async () => mockEvents,
+    } as Response)
+
+    renderWithRouter()
+
+    await waitFor(() => {
+      expect(screen.getByText('Tonight Band')).toBeInTheDocument()
+    })
+
+    expect(screen.queryByText('Yesterday Band')).not.toBeInTheDocument()
   })
 
   it('shows error message on failure', async () => {

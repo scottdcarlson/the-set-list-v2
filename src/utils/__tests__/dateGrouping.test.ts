@@ -2,6 +2,7 @@ import { describe, it, expect } from 'vitest'
 import {
   parseEventDate,
   getDateGroupLabel,
+  filterUpcomingEvents,
   groupEventsByDate,
 } from '../dateGrouping'
 import type { EventData } from '../../types/event'
@@ -146,5 +147,43 @@ describe('groupEventsByDate', () => {
 
     expect(result[0].label).toBe('TONIGHT 🔥')
     expect(result[1].label).toBe('TOMORROW')
+  })
+})
+
+describe('filterUpcomingEvents', () => {
+  it('removes events before today', () => {
+    const events: EventData[] = [
+      {
+        artist_event: 'Old Band',
+        venue: 'Venue 1',
+        date: 'Fri Feb 27',
+        start_time: '8:00 PM',
+        city: 'Durham',
+        category: 'Rock',
+      },
+      {
+        artist_event: 'Tonight Band',
+        venue: 'Venue 2',
+        date: 'Sat Feb 28',
+        start_time: '9:00 PM',
+        city: 'Raleigh',
+        category: 'Jazz',
+      },
+      {
+        artist_event: 'Tomorrow Band',
+        venue: 'Venue 3',
+        date: 'Sun Mar 01',
+        start_time: '7:00 PM',
+        city: 'Cary',
+        category: 'Folk',
+      },
+    ]
+
+    const result = filterUpcomingEvents(events, NOW)
+
+    expect(result.map((event) => event.artist_event)).toEqual([
+      'Tonight Band',
+      'Tomorrow Band',
+    ])
   })
 })

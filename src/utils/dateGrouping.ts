@@ -95,6 +95,29 @@ export function getDateGroupLabel(date: Date, now: Date = new Date()): string {
   return `${dayName}, ${monthName} ${dayNum}`
 }
 
+function startOfDay(date: Date): Date {
+  const day = new Date(date)
+  day.setHours(0, 0, 0, 0)
+  return day
+}
+
+export function isUpcomingEvent(event: EventData, now: Date = new Date()): boolean {
+  const parsed = parseEventDate(event.date, now)
+
+  if (isNaN(parsed.getTime())) {
+    return false
+  }
+
+  return startOfDay(parsed).getTime() >= startOfDay(now).getTime()
+}
+
+export function filterUpcomingEvents(
+  events: EventData[],
+  now: Date = new Date()
+): EventData[] {
+  return events.filter((event) => isUpcomingEvent(event, now))
+}
+
 export function groupEventsByDate(
   events: EventData[],
   now: Date = new Date()

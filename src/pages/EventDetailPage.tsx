@@ -1,6 +1,7 @@
 import { useEffect } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
 import { useEventStore } from '../store/useEventStore'
+import { filterUpcomingEvents } from '../utils/dateGrouping'
 import { generateICS, generateGoogleCalURL } from '../utils/calendar'
 import { FavoriteButton } from '../components/FavoriteButton'
 
@@ -20,8 +21,9 @@ export function EventDetailPage() {
 
   const decoded = decodeURIComponent(id)
   const [artistEvent, date] = decoded.split('|')
+  const upcomingEvents = filterUpcomingEvents(events)
 
-  const event = events.find(
+  const event = upcomingEvents.find(
     (e) => e.artist_event === artistEvent && e.date === date
   )
 

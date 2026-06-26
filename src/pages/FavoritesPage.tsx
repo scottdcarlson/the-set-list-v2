@@ -2,6 +2,7 @@ import { useEffect, useMemo } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useEventStore } from '../store/useEventStore'
 import { useFavoritesStore } from '../store/useFavoritesStore'
+import { filterUpcomingEvents } from '../utils/dateGrouping'
 import { EventCard } from '../components/EventCard'
 import { EmptyState } from '../components/EmptyState'
 
@@ -15,13 +16,15 @@ export function FavoritesPage() {
     void fetchEvents()
   }, [])
 
+  const upcomingEvents = useMemo(() => filterUpcomingEvents(events), [events])
+
   const artistEvents = useMemo(() => {
-    return events.filter((e) => favoriteArtists.includes(e.artist_event))
-  }, [events, favoriteArtists])
+    return upcomingEvents.filter((e) => favoriteArtists.includes(e.artist_event))
+  }, [upcomingEvents, favoriteArtists])
 
   const venueEvents = useMemo(() => {
-    return events.filter((e) => favoriteVenues.includes(e.venue))
-  }, [events, favoriteVenues])
+    return upcomingEvents.filter((e) => favoriteVenues.includes(e.venue))
+  }, [upcomingEvents, favoriteVenues])
 
   const handleEventClick = (event: { artist_event: string; date: string }) => {
     const id = encodeURIComponent(`${event.artist_event}|${event.date}`)

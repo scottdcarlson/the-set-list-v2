@@ -5,6 +5,14 @@ import { BrowserRouter } from 'react-router-dom'
 import { SearchPage } from '../SearchPage'
 import { useEventStore } from '../../store/useEventStore'
 
+vi.mock('../../utils/dateGrouping', async () => {
+  const actual = await vi.importActual('../../utils/dateGrouping')
+  return {
+    ...actual,
+    filterUpcomingEvents: (events: unknown[]) => events,
+  }
+})
+
 const mockEvents = [
   {
     artist_event: 'The Mountain Goats',

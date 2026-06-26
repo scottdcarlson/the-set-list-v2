@@ -2,6 +2,7 @@ import { useState, useMemo, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useEventStore } from '../store/useEventStore'
 import { createEventSearch, searchEvents } from '../utils/search'
+import { filterUpcomingEvents } from '../utils/dateGrouping'
 import { EventCard } from '../components/EventCard'
 import { EmptyState } from '../components/EmptyState'
 
@@ -15,7 +16,8 @@ export function SearchPage() {
     void fetchEvents()
   }, [])
 
-  const search = useMemo(() => createEventSearch(events), [events])
+  const upcomingEvents = useMemo(() => filterUpcomingEvents(events), [events])
+  const search = useMemo(() => createEventSearch(upcomingEvents), [upcomingEvents])
   const results = useMemo(() => searchEvents(search, query), [search, query])
 
   const handleEventClick = (event: { artist_event: string; date: string }) => {

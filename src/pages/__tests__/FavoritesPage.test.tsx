@@ -5,6 +5,14 @@ import { FavoritesPage } from '../FavoritesPage'
 import { useEventStore } from '../../store/useEventStore'
 import { useFavoritesStore } from '../../store/useFavoritesStore'
 
+vi.mock('../../utils/dateGrouping', async () => {
+  const actual = await vi.importActual('../../utils/dateGrouping')
+  return {
+    ...actual,
+    filterUpcomingEvents: (events: unknown[]) => events,
+  }
+})
+
 const mockEvents = [
   {
     artist_event: 'The Mountain Goats',
